@@ -288,8 +288,8 @@ svg {
   position: relative;
 }
 
-.form-wrapper:not(:last-child) {
-  margin-bottom: 10px;
+.form-wrapper + .form-wrapper {
+  margin-top: 10px;
 }
 
 .form-label {
@@ -408,7 +408,7 @@ svg {
 
 .modal-submit-btn {
   display: block;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 55px;
